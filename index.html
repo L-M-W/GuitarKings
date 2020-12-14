@@ -7,31 +7,42 @@
       name="description"
       content="Get real authentic, hand-crafted guitars from Guitar Kings"
     />
+    <link href="styles/styles.css" rel="stylesheet" />
     <title>Guitar Kings | Autentic Handmade Guitars</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cc20864ea7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <a href="index.html">Guitar Kings</a>
+      <div id="header">
+        <a href="index.html" class="logo">Guitar Kings</a>
 
-      <!--site navigation-->
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="guitars.html">Guitars</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-
+        <!--site navigation-->
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="guitars.html">Guitars</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
       <!-- Included in the header because it introduces the site-->
-      <section>
+      <section id="hero">
         <h1>Authentic Handmade Guitars</h1>
-        <a href="guitars.html">View Guitars</a>
+        <a href="guitars.html" class="cta">View Guitars</a>
       </section>
     </header>
 
     <!--main site content-->
     <main>
-      <section>
+      <section class="ourguitars">
         <div>
           <h2>Our Guitars Are:</h2>
           <ul>
@@ -42,10 +53,14 @@
             <li>Options for all music lovers</li>
           </ul>
         </div>
-        <img src="#" alt="Hands strumming guitar" />
+        <img
+          src="images/home-info.jpg"
+          alt="Hands strumming guitar"
+          class="ourguitars_img"
+        />
       </section>
 
-      <section>
+      <section class="reviews">
         <h2>Reviews</h2>
         <div>
           <p>
@@ -53,7 +68,11 @@
             Suspendisse quis dictum elit. In hac habitasse platea dictumst." -
             Bob Willis
           </p>
-          <img src="#" alt="Profile pic of Bob Willis.photo." />
+          <img
+            src="images/review-bio.jpg"
+            alt="Profile pic of Bob Willis.photo."
+            class="reviews_img"
+          />
         </div>
         <div>
           <p>
@@ -61,39 +80,45 @@
             mauris, commodo vestibulum odio nunc id urna. Sed volutpat consequat
             dolor, nec sollicitudin elit eleifend vitae. " - Sally Oldfield
           </p>
-          <img src="#" alt="Profile pic of Sally Oldfield.photo." />
+          <img
+            src="images/review-bio2.jpg"
+            alt="Profile pic of Sally Oldfield.photo."
+            class="reviews_img"
+          />
         </div>
       </section>
 
-      <section>
+      <section class="featured">
         <h2>View Our Guitars</h2>
 
-        <div>
-          <img src="#" alt="Adirondack red" />
+        <div class="featured__product">
+          <img src="images/product.jpg" alt="Adirondack red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
-          <a href="guitars/adirondackred.html">View</a>
+          <a href="guitars/adirondackred.html" class="cta cta-small">View</a>
         </div>
 
-        <div>
-          <img src="#" alt="Adirondack red" />
+        <div class="featured__product">
+          <img src="images/product.jpg" alt="Adirondack red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
-          <a href="guitars/adirondackred.html">On sale</a>
+          <a href="guitars/adirondackred.html" class="cta cta-sale cta-small"
+            >On sale</a
+          >
         </div>
 
-        <div>
-          <img src="#" alt="Adirondack red" />
+        <div class="featured__product">
+          <img src="images/product.jpg" alt="Adirondack red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
-          <a href="guitars/adirondackred.html">View</a>
+          <a href="guitars/adirondackred.html" class="cta">View</a>
         </div>
 
-        <div>
-          <img src="#" alt="Adirondack red" />
+        <div class="featured__product">
+          <img src="images/product.jpg" alt="Adirondack red" />
           <h3>Adirondack Red</h3>
           <p>$500</p>
-          <a href="guitars/adirondackred.html">View</a>
+          <a href="guitars/adirondackred.html" class="cta">View</a>
         </div>
       </section>
     </main>

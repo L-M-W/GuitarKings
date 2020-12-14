@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "BootsAndSpurs";
+  src: url(../fonts/BootsAndSpurs.ttf);
+}
+#header,
+footer {
+  background-color: #202020;
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+}
+.cta {
+  background-color: #bb0000;
+  color: #ffffff;
+  font-size: 1em;
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 10px 80px;
+  text-transform: uppercase;
+}
+.cta-small {
+  font-size: 0.8em;
+  padding: 8px 30px;
+}
+.cta-sale {
+  background-color: #127300;
+  color: #ffffff;
+}
+.reviews {
+  background-color: #e8e8e8;
+}
+.featured {
+  background-color: #fbfbfb;
+}
+
+body {
+  font-family: Roboto, arial, sans-serif;
+}
+h1,
+h2,
+.logo {
+  font-family: "BootsAndSpurs", verdana, sans-serif;
+}
+
+.ourguitars_img {
+  border-radius: 100px;
+}
+.reviews_img {
+  border-radius: 50%;
+}
+/*Home page*/
+#hero {
+  background-image: url(../images/home-header.jpg);
+  background-size: 100%;
+  min-height: 70vh;
+  background-size: cover;
+  background-position-x: right;
+  background-position: bottom;
+}
+/*Contact page*/
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+/*Navigation*/
+nav ul {
+  padding: 0px;
+}
+nav li {
+  display: inline-block;
+}
+.current {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*Links*/
+a {
+  text-decoration: none;
+}
+header a {
+  color: #ffffff;
+  padding: 10px;
+}
