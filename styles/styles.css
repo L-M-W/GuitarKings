@@ -58,6 +58,14 @@ h2,
   background-size: cover;
   background-position-x: right;
   background-position: bottom;
+  position: relative;
+}
+.hero-content{
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 150px;
+}
 }
 /*Contact page*/
 input,
